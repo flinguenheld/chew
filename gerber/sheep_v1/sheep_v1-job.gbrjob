@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "7.0.10"
     },
-    "CreationDate": "2024-03-06T23:25:22+01:00"
+    "CreationDate": "2024-03-09T20:05:54+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "routes",
-      "GUID": "726f7574-6573-42e6-9b69-6361645f7063",
+      "Name": "sheep_v1",
+      "GUID": "73686565-705f-4763-912e-6b696361645f",
       "Revision": "rev?"
     },
     "Size": {
@@ -34,47 +34,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "routes-F_Cu.gbr",
+      "Path": "sheep_v1-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "routes-B_Cu.gbr",
+      "Path": "sheep_v1-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "routes-F_Paste.gbr",
+      "Path": "sheep_v1-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "routes-B_Paste.gbr",
+      "Path": "sheep_v1-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "routes-F_Silkscreen.gbr",
+      "Path": "sheep_v1-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "routes-B_Silkscreen.gbr",
+      "Path": "sheep_v1-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "routes-F_Mask.gbr",
+      "Path": "sheep_v1-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "routes-B_Mask.gbr",
+      "Path": "sheep_v1-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "routes-Edge_Cuts.gbr",
+      "Path": "sheep_v1-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

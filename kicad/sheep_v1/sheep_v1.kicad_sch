@@ -153,13 +153,13 @@
       )
     )
     (symbol "half-swept-rescue:ProMicro-kbd-bigblackpill-34key-rescue-sweepv2-rescue" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 0 24.13 0)
+      (property "Reference" "U1" (at 0 29.0322 0)
         (effects (font (size 1.524 1.524)))
       )
-      (property "Value" "ProMicro-kbd-bigblackpill-34key-rescue-sweepv2-rescue" (at 0 -13.97 0)
+      (property "Value" "MicroController" (at 0 26.3398 0)
         (effects (font (size 1.524 1.524)))
       )
-      (property "Footprint" "" (at 2.54 -26.67 0)
+      (property "Footprint" "RP2040" (at 0 23.6474 0)
         (effects (font (size 1.524 1.524)))
       )
       (property "Datasheet" "" (at 2.54 -26.67 0)
@@ -173,55 +173,55 @@
       )
       (symbol "ProMicro-kbd-bigblackpill-34key-rescue-sweepv2-rescue_1_1"
         (pin bidirectional line (at -17.78 19.05 0) (length 5.08)
-          (name "TX" (effects (font (size 1.27 1.27))))
+          (name "D0" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
         (pin bidirectional line (at -17.78 -3.81 0) (length 5.08)
-          (name "E6" (effects (font (size 1.27 1.27))))
+          (name "D7" (effects (font (size 1.27 1.27))))
           (number "10" (effects (font (size 1.27 1.27))))
         )
         (pin bidirectional line (at -17.78 -6.35 0) (length 5.08)
-          (name "B4" (effects (font (size 1.27 1.27))))
+          (name "D8" (effects (font (size 1.27 1.27))))
           (number "11" (effects (font (size 1.27 1.27))))
         )
         (pin bidirectional line (at -17.78 -8.89 0) (length 5.08)
-          (name "B5" (effects (font (size 1.27 1.27))))
+          (name "D9" (effects (font (size 1.27 1.27))))
           (number "12" (effects (font (size 1.27 1.27))))
         )
         (pin bidirectional line (at 17.78 -8.89 180) (length 5.08)
-          (name "B6" (effects (font (size 1.27 1.27))))
+          (name "D21" (effects (font (size 1.27 1.27))))
           (number "13" (effects (font (size 1.27 1.27))))
         )
         (pin bidirectional line (at 17.78 -6.35 180) (length 5.08)
-          (name "B2" (effects (font (size 1.27 1.27))))
+          (name "D23" (effects (font (size 1.27 1.27))))
           (number "14" (effects (font (size 1.27 1.27))))
         )
         (pin bidirectional line (at 17.78 -3.81 180) (length 5.08)
-          (name "B3" (effects (font (size 1.27 1.27))))
+          (name "D20" (effects (font (size 1.27 1.27))))
           (number "15" (effects (font (size 1.27 1.27))))
         )
         (pin bidirectional line (at 17.78 -1.27 180) (length 5.08)
-          (name "B1" (effects (font (size 1.27 1.27))))
+          (name "D22" (effects (font (size 1.27 1.27))))
           (number "16" (effects (font (size 1.27 1.27))))
         )
         (pin bidirectional line (at 17.78 1.27 180) (length 5.08)
-          (name "F7" (effects (font (size 1.27 1.27))))
+          (name "D26/A0" (effects (font (size 1.27 1.27))))
           (number "17" (effects (font (size 1.27 1.27))))
         )
         (pin bidirectional line (at 17.78 3.81 180) (length 5.08)
-          (name "F6" (effects (font (size 1.27 1.27))))
+          (name "D27/A1" (effects (font (size 1.27 1.27))))
           (number "18" (effects (font (size 1.27 1.27))))
         )
         (pin bidirectional line (at 17.78 6.35 180) (length 5.08)
-          (name "F5" (effects (font (size 1.27 1.27))))
+          (name "D28/A2" (effects (font (size 1.27 1.27))))
           (number "19" (effects (font (size 1.27 1.27))))
         )
         (pin bidirectional line (at -17.78 16.51 0) (length 5.08)
-          (name "RX" (effects (font (size 1.27 1.27))))
+          (name "D1" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
         (pin bidirectional line (at 17.78 8.89 180) (length 5.08)
-          (name "F4" (effects (font (size 1.27 1.27))))
+          (name "D29/A3" (effects (font (size 1.27 1.27))))
           (number "20" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at 17.78 11.43 180) (length 5.08)
@@ -229,7 +229,7 @@
           (number "21" (effects (font (size 1.27 1.27))))
         )
         (pin input line (at 17.78 13.97 180) (length 5.08)
-          (name "RST" (effects (font (size 1.27 1.27))))
+          (name "RUN/RST" (effects (font (size 1.27 1.27))))
           (number "22" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at 17.78 16.51 180) (length 5.08)
@@ -249,11 +249,11 @@
           (number "4" (effects (font (size 1.27 1.27))))
         )
         (pin bidirectional line (at -17.78 8.89 0) (length 5.08)
-          (name "SDA" (effects (font (size 1.27 1.27))))
+          (name "D2" (effects (font (size 1.27 1.27))))
           (number "5" (effects (font (size 1.27 1.27))))
         )
         (pin bidirectional line (at -17.78 6.35 0) (length 5.08)
-          (name "SCL" (effects (font (size 1.27 1.27))))
+          (name "D3" (effects (font (size 1.27 1.27))))
           (number "6" (effects (font (size 1.27 1.27))))
         )
         (pin bidirectional line (at -17.78 3.81 0) (length 5.08)
@@ -261,11 +261,11 @@
           (number "7" (effects (font (size 1.27 1.27))))
         )
         (pin bidirectional line (at -17.78 1.27 0) (length 5.08)
-          (name "C6" (effects (font (size 1.27 1.27))))
+          (name "D5" (effects (font (size 1.27 1.27))))
           (number "8" (effects (font (size 1.27 1.27))))
         )
         (pin bidirectional line (at -17.78 -1.27 0) (length 5.08)
-          (name "D7" (effects (font (size 1.27 1.27))))
+          (name "D6" (effects (font (size 1.27 1.27))))
           (number "9" (effects (font (size 1.27 1.27))))
         )
       )
@@ -748,7 +748,7 @@
     (pin "1" (uuid 9115cc05-b5af-4403-ba97-244d04a4bdb0))
     (pin "2" (uuid 50da695d-5218-460f-aad0-c718eb7a1f2f))
     (instances
-      (project "routes"
+      (project "enlarge_pads"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW13") (unit 1)
         )
@@ -774,7 +774,7 @@
     (pin "1" (uuid b383b20f-eb3c-4a46-97f8-5682f11fe3d2))
     (pin "2" (uuid 975e69e4-9023-4426-a238-ba1217506716))
     (instances
-      (project "routes"
+      (project "enlarge_pads"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW12") (unit 1)
         )
@@ -800,7 +800,7 @@
     (pin "1" (uuid cd044c6d-6f7e-4be6-9176-530765cbcde7))
     (pin "2" (uuid 499fc20f-016e-4bbf-91e4-b5cc74a8cceb))
     (instances
-      (project "routes"
+      (project "enlarge_pads"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW16") (unit 1)
         )
@@ -826,7 +826,7 @@
     (pin "1" (uuid efc56cb4-09de-4fc5-8fd3-426948ac2b5e))
     (pin "2" (uuid 83d72789-0bf9-4ac3-8ede-39ae4dee7bfa))
     (instances
-      (project "routes"
+      (project "enlarge_pads"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW15") (unit 1)
         )
@@ -852,7 +852,7 @@
     (pin "1" (uuid cfbeae78-7c99-46de-9be1-64d0307ba6b5))
     (pin "2" (uuid 4ccfade1-6e46-4072-bf9c-fcebddaf0906))
     (instances
-      (project "routes"
+      (project "enlarge_pads"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW2") (unit 1)
         )
@@ -880,7 +880,7 @@
     (pin "C" (uuid 1b24b2b1-64f5-4ec4-8f3d-8478446a3440))
     (pin "D" (uuid 9ace1ec8-8bb0-41c1-9b8a-b39f4d585125))
     (instances
-      (project "routes"
+      (project "enlarge_pads"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "J1") (unit 1)
         )
@@ -906,7 +906,7 @@
     (pin "1" (uuid 12a6905e-293f-4a6e-ae98-1e097905cc6b))
     (pin "2" (uuid 21c01e2c-9003-43b5-9249-b55d3a2220c0))
     (instances
-      (project "routes"
+      (project "enlarge_pads"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW14") (unit 1)
         )
@@ -932,7 +932,7 @@
     (pin "1" (uuid 57eee37b-a1d3-4ff1-a1ef-bf6c12917206))
     (pin "2" (uuid 9e63dd41-ac2f-4b20-aef9-cee0e614ba8b))
     (instances
-      (project "routes"
+      (project "enlarge_pads"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW4") (unit 1)
         )
@@ -958,7 +958,7 @@
     (pin "1" (uuid 9286c5ce-e290-42d3-86a6-a44586ad778f))
     (pin "2" (uuid fd34f969-0b71-4512-a84b-9f963a1e2b09))
     (instances
-      (project "routes"
+      (project "enlarge_pads"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW1") (unit 1)
         )
@@ -984,7 +984,7 @@
     (pin "1" (uuid b52ef5e8-d59c-4e38-8912-e246ce5543a8))
     (pin "2" (uuid ec9af259-21c7-4b6e-970d-40bd3a207b02))
     (instances
-      (project "routes"
+      (project "enlarge_pads"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW3") (unit 1)
         )
@@ -1010,7 +1010,7 @@
     (pin "1" (uuid 89c250d1-1d1d-4591-80ec-45e1cec04caa))
     (pin "2" (uuid c556f39a-0924-40b2-b092-9c614bdb943d))
     (instances
-      (project "routes"
+      (project "enlarge_pads"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW5") (unit 1)
         )
@@ -1036,7 +1036,7 @@
     (pin "1" (uuid aa9c04c6-8a0e-4ca0-8f49-3f53380e6e86))
     (pin "2" (uuid 1b31443b-2c45-47b6-a1bd-1b66a9dee3e2))
     (instances
-      (project "routes"
+      (project "enlarge_pads"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW9") (unit 1)
         )
@@ -1050,10 +1050,10 @@
     (property "Reference" "U1" (at 231.14 33.1978 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "ProMicro-kbd" (at 231.14 35.8902 0)
+    (property "Value" "MicroController" (at 231.14 35.8902 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "kbd:ProMicro_v2" (at 231.14 38.5826 0)
+    (property "Footprint" "RP2040" (at 231.14 38.5826 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Datasheet" "" (at 233.68 88.9 0)
@@ -1084,7 +1084,7 @@
     (pin "8" (uuid 467fd46f-1498-45ef-9202-3a95a6c0b2db))
     (pin "9" (uuid 32940071-de26-4f4d-9ffa-514bdf08074f))
     (instances
-      (project "routes"
+      (project "enlarge_pads"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "U1") (unit 1)
         )
@@ -1110,7 +1110,7 @@
     (pin "1" (uuid 8e2cf023-e863-4957-8dce-59cb45af4027))
     (pin "2" (uuid 4ba84bff-fd30-4a7b-aa00-90623239c2e1))
     (instances
-      (project "routes"
+      (project "enlarge_pads"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW10") (unit 1)
         )
@@ -1136,7 +1136,7 @@
     (pin "1" (uuid 33baec97-a9d7-48db-8604-c08770f03cbf))
     (pin "2" (uuid ce57f833-2ae9-4f68-9d74-ace3f033eaeb))
     (instances
-      (project "routes"
+      (project "enlarge_pads"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW11") (unit 1)
         )
@@ -1162,7 +1162,7 @@
     (pin "1" (uuid 358677eb-e86a-4ef5-b783-b927ca62beaf))
     (pin "2" (uuid a2bc80f0-73ac-4caf-8de4-e17a9084040a))
     (instances
-      (project "routes"
+      (project "enlarge_pads"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW6") (unit 1)
         )
@@ -1188,7 +1188,7 @@
     (pin "1" (uuid d35c1550-6b72-43ab-8cf5-b2198568c69e))
     (pin "2" (uuid a26fc6af-0804-4208-baae-23fc66a5ca40))
     (instances
-      (project "routes"
+      (project "enlarge_pads"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW7") (unit 1)
         )
@@ -1214,7 +1214,7 @@
     (pin "1" (uuid d8188e62-bc4c-4fdb-8623-3169079b2ba5))
     (pin "2" (uuid 22cec0f0-cec6-48e7-a5d4-4924caac0066))
     (instances
-      (project "routes"
+      (project "enlarge_pads"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "RSW1") (unit 1)
         )
@@ -1240,7 +1240,7 @@
     (pin "1" (uuid 18593d72-6e65-4069-9e7c-ba75a06f3905))
     (pin "2" (uuid 56fd9d83-006e-4f17-8090-4ff96a3b9b00))
     (instances
-      (project "routes"
+      (project "enlarge_pads"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW17") (unit 1)
         )
@@ -1266,7 +1266,7 @@
     (pin "1" (uuid f491d81d-9bd4-493b-9cb7-b6bcc0d74354))
     (pin "2" (uuid c53459ff-0b35-4979-a854-41651e2bb809))
     (instances
-      (project "routes"
+      (project "enlarge_pads"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW8") (unit 1)
         )
