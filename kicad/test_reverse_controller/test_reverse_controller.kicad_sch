@@ -526,10 +526,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "Switch9" (shape input) (at 213.36 58.42 180) (fields_autoplaced)
+  (global_label "Switch10" (shape input) (at 213.36 58.42 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 8a3a7740-1d86-4872-9423-c70f0fa6fc24)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 203.7114 58.42 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 202.5019 58.42 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -631,10 +631,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "Switch10" (shape input) (at 213.36 60.96 180) (fields_autoplaced)
+  (global_label "Switch9" (shape input) (at 213.36 60.96 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid d62a2ff4-57fe-4b78-8a0e-373839612de5)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 202.5019 60.96 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 203.7114 60.96 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -748,7 +748,7 @@
     (pin "1" (uuid 9115cc05-b5af-4403-ba97-244d04a4bdb0))
     (pin "2" (uuid 50da695d-5218-460f-aad0-c718eb7a1f2f))
     (instances
-      (project "enlarge_pads"
+      (project "test_reverse_controller"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW13") (unit 1)
         )
@@ -774,7 +774,7 @@
     (pin "1" (uuid b383b20f-eb3c-4a46-97f8-5682f11fe3d2))
     (pin "2" (uuid 975e69e4-9023-4426-a238-ba1217506716))
     (instances
-      (project "enlarge_pads"
+      (project "test_reverse_controller"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW12") (unit 1)
         )
@@ -800,7 +800,7 @@
     (pin "1" (uuid cd044c6d-6f7e-4be6-9176-530765cbcde7))
     (pin "2" (uuid 499fc20f-016e-4bbf-91e4-b5cc74a8cceb))
     (instances
-      (project "enlarge_pads"
+      (project "test_reverse_controller"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW16") (unit 1)
         )
@@ -826,7 +826,7 @@
     (pin "1" (uuid efc56cb4-09de-4fc5-8fd3-426948ac2b5e))
     (pin "2" (uuid 83d72789-0bf9-4ac3-8ede-39ae4dee7bfa))
     (instances
-      (project "enlarge_pads"
+      (project "test_reverse_controller"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW15") (unit 1)
         )
@@ -852,7 +852,7 @@
     (pin "1" (uuid cfbeae78-7c99-46de-9be1-64d0307ba6b5))
     (pin "2" (uuid 4ccfade1-6e46-4072-bf9c-fcebddaf0906))
     (instances
-      (project "enlarge_pads"
+      (project "test_reverse_controller"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW2") (unit 1)
         )
@@ -880,7 +880,7 @@
     (pin "C" (uuid 1b24b2b1-64f5-4ec4-8f3d-8478446a3440))
     (pin "D" (uuid 9ace1ec8-8bb0-41c1-9b8a-b39f4d585125))
     (instances
-      (project "enlarge_pads"
+      (project "test_reverse_controller"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "J1") (unit 1)
         )
@@ -906,7 +906,7 @@
     (pin "1" (uuid 12a6905e-293f-4a6e-ae98-1e097905cc6b))
     (pin "2" (uuid 21c01e2c-9003-43b5-9249-b55d3a2220c0))
     (instances
-      (project "enlarge_pads"
+      (project "test_reverse_controller"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW14") (unit 1)
         )
@@ -932,7 +932,7 @@
     (pin "1" (uuid 57eee37b-a1d3-4ff1-a1ef-bf6c12917206))
     (pin "2" (uuid 9e63dd41-ac2f-4b20-aef9-cee0e614ba8b))
     (instances
-      (project "enlarge_pads"
+      (project "test_reverse_controller"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW4") (unit 1)
         )
@@ -958,7 +958,7 @@
     (pin "1" (uuid 9286c5ce-e290-42d3-86a6-a44586ad778f))
     (pin "2" (uuid fd34f969-0b71-4512-a84b-9f963a1e2b09))
     (instances
-      (project "enlarge_pads"
+      (project "test_reverse_controller"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW1") (unit 1)
         )
@@ -984,7 +984,7 @@
     (pin "1" (uuid b52ef5e8-d59c-4e38-8912-e246ce5543a8))
     (pin "2" (uuid ec9af259-21c7-4b6e-970d-40bd3a207b02))
     (instances
-      (project "enlarge_pads"
+      (project "test_reverse_controller"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW3") (unit 1)
         )
@@ -1010,7 +1010,7 @@
     (pin "1" (uuid 89c250d1-1d1d-4591-80ec-45e1cec04caa))
     (pin "2" (uuid c556f39a-0924-40b2-b092-9c614bdb943d))
     (instances
-      (project "enlarge_pads"
+      (project "test_reverse_controller"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW5") (unit 1)
         )
@@ -1036,7 +1036,7 @@
     (pin "1" (uuid aa9c04c6-8a0e-4ca0-8f49-3f53380e6e86))
     (pin "2" (uuid 1b31443b-2c45-47b6-a1bd-1b66a9dee3e2))
     (instances
-      (project "enlarge_pads"
+      (project "test_reverse_controller"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW9") (unit 1)
         )
@@ -1084,7 +1084,7 @@
     (pin "8" (uuid 467fd46f-1498-45ef-9202-3a95a6c0b2db))
     (pin "9" (uuid 32940071-de26-4f4d-9ffa-514bdf08074f))
     (instances
-      (project "enlarge_pads"
+      (project "test_reverse_controller"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "U1") (unit 1)
         )
@@ -1110,7 +1110,7 @@
     (pin "1" (uuid 8e2cf023-e863-4957-8dce-59cb45af4027))
     (pin "2" (uuid 4ba84bff-fd30-4a7b-aa00-90623239c2e1))
     (instances
-      (project "enlarge_pads"
+      (project "test_reverse_controller"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW10") (unit 1)
         )
@@ -1136,7 +1136,7 @@
     (pin "1" (uuid 33baec97-a9d7-48db-8604-c08770f03cbf))
     (pin "2" (uuid ce57f833-2ae9-4f68-9d74-ace3f033eaeb))
     (instances
-      (project "enlarge_pads"
+      (project "test_reverse_controller"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW11") (unit 1)
         )
@@ -1162,7 +1162,7 @@
     (pin "1" (uuid 358677eb-e86a-4ef5-b783-b927ca62beaf))
     (pin "2" (uuid a2bc80f0-73ac-4caf-8de4-e17a9084040a))
     (instances
-      (project "enlarge_pads"
+      (project "test_reverse_controller"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW6") (unit 1)
         )
@@ -1188,7 +1188,7 @@
     (pin "1" (uuid d35c1550-6b72-43ab-8cf5-b2198568c69e))
     (pin "2" (uuid a26fc6af-0804-4208-baae-23fc66a5ca40))
     (instances
-      (project "enlarge_pads"
+      (project "test_reverse_controller"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW7") (unit 1)
         )
@@ -1214,7 +1214,7 @@
     (pin "1" (uuid d8188e62-bc4c-4fdb-8623-3169079b2ba5))
     (pin "2" (uuid 22cec0f0-cec6-48e7-a5d4-4924caac0066))
     (instances
-      (project "enlarge_pads"
+      (project "test_reverse_controller"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "RSW1") (unit 1)
         )
@@ -1240,7 +1240,7 @@
     (pin "1" (uuid 18593d72-6e65-4069-9e7c-ba75a06f3905))
     (pin "2" (uuid 56fd9d83-006e-4f17-8090-4ff96a3b9b00))
     (instances
-      (project "enlarge_pads"
+      (project "test_reverse_controller"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW17") (unit 1)
         )
@@ -1266,7 +1266,7 @@
     (pin "1" (uuid f491d81d-9bd4-493b-9cb7-b6bcc0d74354))
     (pin "2" (uuid c53459ff-0b35-4979-a854-41651e2bb809))
     (instances
-      (project "enlarge_pads"
+      (project "test_reverse_controller"
         (path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
           (reference "SW8") (unit 1)
         )
