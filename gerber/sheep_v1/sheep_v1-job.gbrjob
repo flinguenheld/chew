@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "7.0.10"
     },
-    "CreationDate": "2024-03-11T00:33:33+01:00"
+    "CreationDate": "2024-03-12T15:39:51+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "test_reverse_controller",
-      "GUID": "74657374-5f72-4657-9665-7273655f636f",
+      "Name": "sheep_v1",
+      "GUID": "73686565-705f-4763-912e-6b696361645f",
       "Revision": "rev?"
     },
     "Size": {
@@ -34,47 +34,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "test_reverse_controller-F_Cu.gbr",
+      "Path": "sheep_v1-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "test_reverse_controller-B_Cu.gbr",
+      "Path": "sheep_v1-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "test_reverse_controller-F_Paste.gbr",
+      "Path": "sheep_v1-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "test_reverse_controller-B_Paste.gbr",
+      "Path": "sheep_v1-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "test_reverse_controller-F_Silkscreen.gbr",
+      "Path": "sheep_v1-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "test_reverse_controller-B_Silkscreen.gbr",
+      "Path": "sheep_v1-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "test_reverse_controller-F_Mask.gbr",
+      "Path": "sheep_v1-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "test_reverse_controller-B_Mask.gbr",
+      "Path": "sheep_v1-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "test_reverse_controller-Edge_Cuts.gbr",
+      "Path": "sheep_v1-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
