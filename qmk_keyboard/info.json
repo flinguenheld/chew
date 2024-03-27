@@ -2,9 +2,11 @@
     "manufacturer": "florent@linguenheld.fr",
     "keyboard_name": "chew",
     "maintainer": "florent@linguenheld.fr",
+
+    "processor": "RP2040",
     "bootloader": "rp2040",
     "features": {
-        "bootmagic": true,
+        "bootmagic": false,
         "command": false,
         "console": false,
         "extrakey": true,
@@ -12,7 +14,6 @@
         "nkro": true
     },
 
-    "processor": "RP2040",
     "usb": {
         "device_version": "1.0.0",
         "pid": "0x0000",
@@ -21,22 +22,28 @@
     
     "matrix_pins": {
         "direct": [
-            ["D22", "A0", "A1", "A2", "A3"],
-            ["D4", "D5", "D21", "D23", "D20"],
-            ["D9", "D8", "D7", "D6", "NO_PIN"],
-            ["D3", "D2", "D1", "NO_PIN", "NO_PIN"],
+            ["GP22", "GP26", "GP27", "GP28", "GP29"],
+            ["GP4", "GP5", "GP21", "GP23", "GP20"],
+            ["GP9", "GP8", "GP7", "GP6", "NO_PIN"],
+            ["GP3", "GP2", "GP1", "NO_PIN", "NO_PIN"]
         ]
     },
     "split": {
         "enabled": true,
-        "soft_serial_pin": "D0",
+          "transport": {
+            "protocol": "serial_usart",
+            "sync" :{
+                "matrix_state": true
+            }
+        },
+    
         "matrix_pins": {
             "right": {
                 "direct": [
-                    ["A3", "A2", "A1", "A0", "D22"],
-                    ["D20", "D23", "D21", "D5", "D4"],
-                    ["D6", "D7", "D8", "D9", "NO_PIN"],
-                    ["D1", "D2", "D3", "NO_PIN", "NO_PIN"],
+                    ["GP29", "GP28", "GP27", "GP26", "GP22"],
+                    ["GP20", "GP23", "GP21", "GP5", "GP4"],
+                    ["GP6", "GP7", "GP8", "GP9", "NO_PIN"],
+                    ["GP1", "GP2", "GP3", "NO_PIN", "NO_PIN"]
                 ]
             }
         }
@@ -71,18 +78,18 @@
                 {"matrix": [2, 1], "x": 1, "y": 2.125},
                 {"matrix": [2, 2], "x": 2, "y": 2},
                 {"matrix": [2, 3], "x": 3, "y": 2.125},
-                {"matrix": [6, 8], "x": 8, "y": 2.125},
-                {"matrix": [6, 9], "x": 9, "y": 2},
-                {"matrix": [6, 10], "x": 10, "y": 2.125},
-                {"matrix": [6, 11], "x": 11, "y": 2.25},
+                {"matrix": [6, 0], "x": 8, "y": 2.125},
+                {"matrix": [6, 1], "x": 9, "y": 2},
+                {"matrix": [6, 2], "x": 10, "y": 2.125},
+                {"matrix": [6, 3], "x": 11, "y": 2.25},
 
-                {"matrix": [3, 2], "x": 2.5, "y": 3.25},
-                {"matrix": [3, 3], "x": 3.5, "y": 3.5},
-                {"matrix": [3, 4], "x": 4.5, "y": 3.75},
+                {"matrix": [3, 0], "x": 2.5, "y": 3.25},
+                {"matrix": [3, 1], "x": 3.5, "y": 3.5},
+                {"matrix": [3, 2], "x": 4.5, "y": 3.75},
 
-                {"matrix": [7, 6], "x": 6.5, "y": 3.75},
-                {"matrix": [7, 7], "x": 7.5, "y": 3.5},
-                {"matrix": [7, 8], "x": 8.5, "y": 3.25}
+                {"matrix": [7, 0], "x": 6.5, "y": 3.75},
+                {"matrix": [7, 1], "x": 7.5, "y": 3.5},
+                {"matrix": [7, 2], "x": 8.5, "y": 3.25}
             ]
         }
     }
