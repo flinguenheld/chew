@@ -488,7 +488,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../gerber/chew_v1_backplate",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
