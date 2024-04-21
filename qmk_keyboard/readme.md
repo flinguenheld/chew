@@ -3,15 +3,15 @@
 ![chew](imgur.com image replace me!)
 
 
+
+
 ### Handedness
 
 Set it with the [EEPROM](https://docs.qmk.fm/#/feature_split_keyboard?id=handedness-by-eeprom) method.
 Move into the default keymap folder and flash one time both sides with these commands:
 
-`qmk compile && qmk flash -bl uf2-split-left`
+`qmk compile && qmk flash -bl uf2-split-left`  
 `qmk compile && qmk flash -bl uf2-split-right`
-
-
 
 
 _A short description of the keyboard/project_
@@ -32,8 +32,7 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 
 ## Bootloader
 
-Enter the bootloader in 3 ways:
+Enter the bootloader in 2 ways:
 
-- **Bootmagic reset**: Hold down the key at (0,0) in the matrix (usually the top left key or Escape) and plug in the keyboard
-- **Physical reset button**: Briefly press the button on the back of the PCB - some may have pads you must short instead
+- **Physical reset button**: Press twice the button on the PCB
 - **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available
