@@ -1,39 +1,65 @@
-## chew
+# chew
 
-![chew](imgur.com image replace me!)
+<div align="center">
+  <img src="https://live.staticflickr.com/65535/53681212617_90e4eebaf9_o.jpg">
+  <img src="https://live.staticflickr.com/65535/53682442119_1fcea26fef_o.jpg">
+</div>
 
+A meeky 34 keys choc-spaced keyboard.
 
-### Handedness
+<div align="center" style="margin: 30px;">
+  <img src="./images/carrots.png">
+</div>
 
-Set it with the [EEPROM](https://docs.qmk.fm/#/feature_split_keyboard?id=handedness-by-eeprom) method.
-Move into the default keymap folder and flash one time both sides with these commands:
+### Requirements
 
-`qmk compile && qmk flash -bl uf2-split-left`  
-`qmk compile && qmk flash -bl uf2-split-right`
+- 2x PCB
+- 2x MCU board [RP2040-Zéro](https://www.waveshare.com/wiki/RP2040-Zero)
+- 2x TRRS jack
+- 34 switches Choc V1 **only**
+- 34 keycaps Choc V1
 
+Optional:
+- 23 [Mill Max sockets](https://splitkb.com/collections/keyboard-parts/products/mill-max-low-profile-sockets)
+- 34 [kailh hotswap sockets](https://cdn.shopify.com/s/files/1/0588/1108/9090/files/5118-Choc-Socket.pdf?v=1686715063)
+- 2x Back PCB + screws and bolts
+- 2x [Tenting pucks](https://splitkb.com/collections/keyboard-parts/products/tenting-puck)
+- 2x [Tripods](https://www.manfrotto.com/us-en/pocket-support-large-black-mp3-bk/)
 
-_A short description of the keyboard/project_
+### Test
 
-- Keyboard Maintainer: [Florent](https://github.com/flinguenheld/)
-- Hardware Supported: _The PCBs, controllers supported_
-- Hardware Availability: _Links to where you can find this hardware_
+You can print these templates to test if it fits to your hands:  
+- [Left](./images/shape_left.pdf)
+- [Right](./images/shape_right.pdf)
 
-Make example for this keyboard (after setting up your build environment):
+### Firmware
 
-    make chew:default
+*Waiting for QMK PR*
 
-Flashing example for this keyboard:
+The default keymap is just to test the building.  
+You can see my QMK keymap [here](https://github.com/flinguenheld/chew_keymap).
 
-    make chew:default:flash
+### How to build
 
-See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
+Check the [wiki](https://github.com/flinguenheld/chew/wiki).
 
-## Bootloader
+### Brainwave
 
-Enter the bootloader in 3 ways:
+Chew is a mix of these two cool keyboards:  
 
-- **Physical reset button**: Press twice the button on the PCB
-- **Physical boot button**: Maintain the button while you're connecting the usb cable
-- **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available
+[Ferris sweep](https://github.com/davidphilipbarr/Sweep)  
+[Wubbo](https://github.com/cacheworks/Wubbo)
 
-The controler should appear in your file explorer.
+### To do
+
+- [ ] QMK PR
+- [ ] Straight version ?
+- [ ] 33 keys version ?
+
+<div align="center" style="margin: 30px;">
+  <img src="./images/hazelnuts.png">
+</div>
+
+<div align="center">
+  <img src="https://live.staticflickr.com/65535/53682442124_677ffa6cb5_o.jpg">
+</div>
