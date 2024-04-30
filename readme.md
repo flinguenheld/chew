@@ -1,11 +1,11 @@
-# chew
+# Chew
 
 <div align="center">
   <img src="https://live.staticflickr.com/65535/53681212617_90e4eebaf9_o.jpg">
   <img src="https://live.staticflickr.com/65535/53682442119_1fcea26fef_o.jpg">
 </div>
 
-A meeky 34 keys choc-spaced keyboard.
+A humble 34 key choc-spaced keyboard.
 
 <div align="center" style="margin: 30px;">
   <img src="./images/carrots.png">
@@ -28,16 +28,17 @@ Optional:
 
 ### Test
 
-You can print these templates to test if it fits to your hands:  
+You can print these templates to test if it fits your hands:  
 - [Left](./images/shape_left.pdf)
 - [Right](./images/shape_right.pdf)
 
 ### Firmware
 
-*Waiting for QMK PR*
+Chew is running on [QMK](https://docs.qmk.fm/#/).  
+You can see its folder [here](https://github.com/qmk/qmk_firmware/tree/master/keyboards/chew).  
 
 The default keymap is just to test the building.  
-You can see my QMK keymap [here](https://github.com/flinguenheld/chew_keymap).
+Nonetheless, you can see my keymap in this [repository](https://github.com/flinguenheld/chew_keymap).
 
 ### How to build
 
@@ -52,7 +53,6 @@ Chew is a mix of these two cool keyboards:
 
 ### To do
 
-- [ ] QMK PR
 - [ ] Straight version ?
 - [ ] 33 keys version ?
 
