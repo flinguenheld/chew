@@ -54,7 +54,7 @@ Chew is a mix of these two cool keyboards:
 ### To do
 
 - [ ] Straight version ?
-- [ ] 33 keys version ?
+- [ ] 32 keys version ?
 
 <div align="center" style="margin: 30px;">
   <img src="./images/hazelnuts.png">
