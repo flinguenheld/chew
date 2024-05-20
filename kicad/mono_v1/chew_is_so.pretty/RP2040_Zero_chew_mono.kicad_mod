@@ -424,7 +424,7 @@
 			(justify mirror)
 		)
 	)
-	(fp_text user "5"
+	(fp_text user "8"
 		(at 5.499997 10.199999 0)
 		(layer "B.SilkS")
 		(uuid "b15bc729-753d-4d2c-bba5-ba5c0acaa8bc")
@@ -683,7 +683,7 @@
 			)
 		)
 	)
-	(fp_text user "5"
+	(fp_text user "8"
 		(at 5.399994 10.199998 0)
 		(layer "F.SilkS")
 		(uuid "a7d98a59-fb3d-4214-b1dd-2537b9cbd401")

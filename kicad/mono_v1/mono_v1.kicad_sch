@@ -2529,7 +2529,7 @@
 				)
 			)
 		)
-		(property "Footprint" "chew_is_so:Choc_V1_chew"
+		(property "Footprint" "chew_is_so:Choc_V1_chew_2"
 			(at 127 92.71 0)
 			(effects
 				(font
@@ -6693,7 +6693,7 @@
 				)
 			)
 		)
-		(property "Footprint" "chew_is_so:Choc_V1_chew"
+		(property "Footprint" "chew_is_so:Choc_V1_chew_2"
 			(at 73.66 116.84 0)
 			(effects
 				(font
