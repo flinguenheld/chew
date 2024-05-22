@@ -998,6 +998,12 @@
 		(uuid "bc9d4991-adf0-4be7-8e38-ae22be49c41c")
 	)
 	(junction
+		(at 142.24 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be057091-0263-4562-a9ca-6c393fc29f66")
+	)
+	(junction
 		(at 142.24 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1054,6 +1060,16 @@
 			(type default)
 		)
 		(uuid "00bb0079-f3bb-44fb-b0a9-c2e60331d73c")
+	)
+	(wire
+		(pts
+			(xy 142.24 102.87) (xy 154.94 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "011fde67-c3dd-4872-a9c3-19fbcaa3dbde")
 	)
 	(wire
 		(pts
@@ -1317,7 +1333,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 102.87) (xy 154.94 102.87)
+			(xy 129.54 102.87) (xy 142.24 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2529,7 +2545,7 @@
 				)
 			)
 		)
-		(property "Footprint" "chew_is_so:Choc_V1_chew_2"
+		(property "Footprint" "chew_is_so:Choc_V1_chew"
 			(at 127 92.71 0)
 			(effects
 				(font
@@ -3797,7 +3813,7 @@
 				)
 			)
 		)
-		(property "Footprint" "chew_is_so:Choc_V1_chew_2"
+		(property "Footprint" "chew_is_so:Choc_V1_chew"
 			(at 73.66 66.04 0)
 			(effects
 				(font
@@ -4333,7 +4349,7 @@
 				)
 			)
 		)
-		(property "Footprint" "chew_is_so:Choc_V1_chew_2"
+		(property "Footprint" "chew_is_so:Choc_V1_chew"
 			(at 114.3 92.71 0)
 			(effects
 				(font
@@ -6693,7 +6709,7 @@
 				)
 			)
 		)
-		(property "Footprint" "chew_is_so:Choc_V1_chew_2"
+		(property "Footprint" "chew_is_so:Choc_V1_chew"
 			(at 73.66 116.84 0)
 			(effects
 				(font
@@ -6761,7 +6777,7 @@
 				)
 			)
 		)
-		(property "Footprint" "chew_is_so:Choc_V1_chew_2"
+		(property "Footprint" "chew_is_so:Choc_V1_chew"
 			(at 73.66 92.71 0)
 			(effects
 				(font
@@ -6985,7 +7001,7 @@
 				)
 			)
 		)
-		(property "Footprint" "chew_is_so:Choc_V1_chew_2"
+		(property "Footprint" "chew_is_so:Choc_V1_chew"
 			(at 114.3 66.04 0)
 			(effects
 				(font
@@ -7053,7 +7069,7 @@
 				)
 			)
 		)
-		(property "Footprint" "chew_is_so:Choc_V1_chew_2"
+		(property "Footprint" "chew_is_so:Choc_V1_chew"
 			(at 86.36 66.04 0)
 			(effects
 				(font
