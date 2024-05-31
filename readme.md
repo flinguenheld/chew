@@ -1,5 +1,5 @@
 [![Chew both](https://live.staticflickr.com/65535/53759959610_2960edcb50_b.jpg)](https://live.staticflickr.com/65535/53759959610_0c255fe2d4_o.png)  
-A humble 34 key choc-spaced keyboard.
+A crunched 34 key choc-spaced keyboard.
 
 &nbsp;
 
