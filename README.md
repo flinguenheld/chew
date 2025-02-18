@@ -38,8 +38,9 @@ You can print these templates to test if it fits your hands:
 
 ### Firmware
 
-Chew is running on [QMK](https://docs.qmk.fm/#/).  
-You can see its folder [here](https://github.com/qmk/qmk_firmware/tree/master/keyboards/chew).  
+Chew is now running with it's [custom firmware](https://github.com/flinguenheld/rusty_chew) written in rust! ✨  
+
+It's also running on [QMK](https://docs.qmk.fm/#/),  you can see it's QMK folder [here](https://github.com/qmk/qmk_firmware/tree/master/keyboards/chew).  
 
 The default keymap is just to test the building.  
 Nonetheless, you can see my keymap in this [repository](https://github.com/flinguenheld/chew_keymap).
@@ -77,7 +78,7 @@ Chew is a mix of these two cool keyboards:
 </div>
 
 <!-- [![Chew mono](https://live.staticflickr.com/65535/53759880304_2e97179f76_b.jpg)](https://live.staticflickr.com/65535/53759880304_b9eb4130cf_o.png) -->
-[![Chew mono](https://live.staticflickr.com/65535/53759543226_57e3d6354f_b.jpg)](https://live.staticflickr.com/65535/53759543226_decbf17d2a_o.png)
+[![Chew mono](https://live.staticflickr.com/65535/53759543226_57e3d6354f_b.jpg)](https://live.staticflickr.com/65535/53759543226_decbf17d2a_o.png)  
 The same, monobloc though !
 
 
@@ -100,8 +101,8 @@ You can print this [template](./images/shape_mono.pdf) to test if it fits your h
 
 ### Firmware
 
-Its [QMK folder](https://github.com/qmk/qmk_firmware/tree/master/keyboards/chew_mono).  
-My [keymap](https://github.com/flinguenheld/chew_keymap) also works with this version. 
+The [rusty firmware](https://github.com/flinguenheld/rusty_chew) also works with this version ✨  
+Or its [QMK folder](https://github.com/qmk/qmk_firmware/tree/master/keyboards/chew_mono) with my [keymap](https://github.com/flinguenheld/chew_keymap).  
 
 ### How to build
 
