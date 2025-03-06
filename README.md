@@ -1,4 +1,4 @@
-[![Chew both](https://live.staticflickr.com/65535/53759959610_2960edcb50_b.jpg)](https://live.staticflickr.com/65535/53759959610_0c255fe2d4_o.png)  
+[![Chew both](https://live.staticflickr.com/65535/54369568503_fde369267d_b.jpg)](https://live.staticflickr.com/65535/54369568503_4a110cedf2_o.jpg)  
 A crunched 34 key choc-spaced keyboard.
 
 &nbsp;
@@ -11,14 +11,13 @@ A crunched 34 key choc-spaced keyboard.
   <img src="./images/squirrel_brown.png">
 </div>
 
-<!-- [![Chew split](https://live.staticflickr.com/65535/53745130678_97ce7dfedf_b.jpg)](https://live.staticflickr.com/65535/53745130678_2d3318d279_o.png) -->  
-[![Chew split](https://live.staticflickr.com/65535/53745130683_c98f1a152b_b.jpg)](https://live.staticflickr.com/65535/53745130683_90aa38b210_o.png)  
+[![Chew split](https://live.staticflickr.com/65535/54369728290_ec02d31bc1_b.jpg)](https://live.staticflickr.com/65535/54369728290_72c1a1953e_o.jpg)  
 The original.
 
 ### Requirements
 
 - 2x PCB
-- 2x MCU board [RP2040-Zéro](https://www.waveshare.com/wiki/RP2040-Zero)
+- 2x MCU board [0xCB Gemini](https://github.com/0xCB-dev/0xCB-Gemini) or [RP2040-Zéro](https://www.waveshare.com/wiki/RP2040-Zero)
 - 2x TRRS jack
 - 34x switches Choc V1 **only**
 - 34x keycaps Choc V1
@@ -38,12 +37,9 @@ You can print these templates to test if it fits your hands:
 
 ### Firmware
 
-Chew is now running with it's [custom firmware](https://github.com/flinguenheld/rusty_chew) written in rust! ✨  
+Chew is now running with it's [custom firmware](https://github.com/flinguenheld/rusty_chew) written in rust ! 🦀  
 
-It's also running on [QMK](https://docs.qmk.fm/#/),  you can see it's QMK folder [here](https://github.com/qmk/qmk_firmware/tree/master/keyboards/chew).  
-
-The default keymap is just to test the building.  
-Nonetheless, you can see my keymap in this [repository](https://github.com/flinguenheld/chew_keymap).
+It also runs on [QMK](https://docs.qmk.fm/#/),  you can see it's [folder](https://github.com/qmk/qmk_firmware/tree/master/keyboards/chew) and my [keymap](https://github.com/flinguenheld/qmk_chew).
 
 ### How to build
 
@@ -56,14 +52,9 @@ Chew is a mix of these two cool keyboards:
 [Ferris sweep](https://github.com/davidphilipbarr/Sweep)  
 [Wubbo](https://github.com/cacheworks/Wubbo)
 
-### To do
-
-- [ ] Straight version ?
-- [ ] 32 keys version ?
-
 &nbsp;
 
-[![Chew split](https://live.staticflickr.com/65535/53744026347_a95fe6d897_b.jpg)](https://live.staticflickr.com/65535/53744026347_a0a3bbedb4_o.png)
+[![Chew split](https://live.staticflickr.com/65535/54369734660_1b5555f58c_b.jpg)](https://live.staticflickr.com/65535/54369734660_4806e7d20b_o.jpg)
 
 <div align="center" style="margin: 30px;">
   <img src="./images/hazelnuts.png">
@@ -77,15 +68,14 @@ Chew is a mix of these two cool keyboards:
   <img src="./images/fox_brown.png">
 </div>
 
-<!-- [![Chew mono](https://live.staticflickr.com/65535/53759880304_2e97179f76_b.jpg)](https://live.staticflickr.com/65535/53759880304_b9eb4130cf_o.png) -->
-[![Chew mono](https://live.staticflickr.com/65535/53759543226_57e3d6354f_b.jpg)](https://live.staticflickr.com/65535/53759543226_decbf17d2a_o.png)  
+[![Chew mono](https://live.staticflickr.com/65535/54369728375_3be88dbc45_b.jpg)](https://live.staticflickr.com/65535/54369728375_4d5b6c0e8e_o.jpg)  
 The same, monobloc though !
 
 
 ### Requirements
 
 - 1x PCB
-- 1x MCU board [RP2040-Zéro](https://www.waveshare.com/wiki/RP2040-Zero)
+- 1x MCU board [0xCB Gemini](https://github.com/0xCB-dev/0xCB-Gemini) or [RP2040-Zéro](https://www.waveshare.com/wiki/RP2040-Zero)
 - 34x [1N4148W SMD diodes](https://splitkb.com/collections/keyboard-parts/products/smd-diodes)
 - 34x switches Choc V1 **only**
 - 34x keycaps Choc V1
@@ -101,8 +91,9 @@ You can print this [template](./images/shape_mono.pdf) to test if it fits your h
 
 ### Firmware
 
-The [rusty firmware](https://github.com/flinguenheld/rusty_chew) also works with this version ✨  
-Or its [QMK folder](https://github.com/qmk/qmk_firmware/tree/master/keyboards/chew_mono) with my [keymap](https://github.com/flinguenheld/chew_keymap).  
+The [rusty firmware](https://github.com/flinguenheld/rusty_chew) also works with this version. 🦀  
+
+Or its [QMK folder](https://github.com/qmk/qmk_firmware/tree/master/keyboards/chew_mono) with my [keymap](https://github.com/flinguenheld/qmk_chew).  
 
 ### How to build
 
@@ -110,7 +101,7 @@ Check the [wiki](https://github.com/flinguenheld/chew/wiki).
 
 &nbsp;
 
-[![Chew mono](https://live.staticflickr.com/65535/53758638612_167c55f840_o.png)](https://live.staticflickr.com/65535/53758638612_167c55f840_o.png)
+[![Chew mono](https://live.staticflickr.com/65535/54369728340_e533591814_b.jpg)](https://live.staticflickr.com/65535/54369728340_9194f4a2b7_o.jpg)
 
 <div align="center" style="margin: 30px;">
   <img src="./images/sausages.png">
