@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "chew_is_so")(type "KiCad")(uri "${KIPRJMOD}/chew_is_so.pretty")(options "")(descr ""))
-)
