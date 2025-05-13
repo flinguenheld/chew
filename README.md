@@ -1,4 +1,4 @@
-[![Chew both](https://live.staticflickr.com/65535/54369568503_fde369267d_b.jpg)](https://live.staticflickr.com/65535/54369568503_4a110cedf2_o.jpg)  
+[![Chew both](https://live.staticflickr.com/65535/54516924634_97766f6516_b.jpg)](https://live.staticflickr.com/65535/54516924634_889acfa799_o.jpg)  
 A crunched 34 key choc-spaced keyboard.
 
 &nbsp;
@@ -11,7 +11,7 @@ A crunched 34 key choc-spaced keyboard.
   <img src="./images/squirrel_brown.png">
 </div>
 
-[![Chew split](https://live.staticflickr.com/65535/54369728290_ec02d31bc1_b.jpg)](https://live.staticflickr.com/65535/54369728290_72c1a1953e_o.jpg)  
+[![Chew split](https://live.staticflickr.com/65535/54515879542_b55fd4053f_b.jpg)](https://live.staticflickr.com/65535/54515879542_4f3b09451c_o.jpg)  
 The original.
 
 ### Requirements
@@ -24,7 +24,8 @@ The original.
 
 Optional:
 - 23x [Mill Max sockets](https://splitkb.com/collections/keyboard-parts/products/mill-max-low-profile-sockets)
-- 34x [kailh hotswap sockets](https://cdn.shopify.com/s/files/1/0588/1108/9090/files/5118-Choc-Socket.pdf?v=1686715063)
+- 34x [Kailh hotswap sockets](https://cdn.shopify.com/s/files/1/0588/1108/9090/files/5118-Choc-Socket.pdf?v=1686715063)
+- 2x [Piezo buzzer](https://keeb.supply/products/piezo-buzzer)
 - 2x Back PCB + screws and bolts
 - 2x [Tenting pucks](https://splitkb.com/collections/keyboard-parts/products/tenting-puck)
 - 2x [Tripods](https://www.manfrotto.com/us-en/pocket-support-large-black-mp3-bk/)
@@ -54,7 +55,7 @@ Chew is a mix of these two cool keyboards:
 
 &nbsp;
 
-[![Chew split](https://live.staticflickr.com/65535/54369734660_1b5555f58c_b.jpg)](https://live.staticflickr.com/65535/54369734660_4806e7d20b_o.jpg)
+[![Chew split](https://live.staticflickr.com/65535/54515879552_478205a591_b.jpg)](https://live.staticflickr.com/65535/54515879552_5bc9421ecd_o.jpg)  
 
 <div align="center" style="margin: 30px;">
   <img src="./images/hazelnuts.png">
@@ -68,9 +69,8 @@ Chew is a mix of these two cool keyboards:
   <img src="./images/fox_brown.png">
 </div>
 
-[![Chew mono](https://live.staticflickr.com/65535/54369728375_3be88dbc45_b.jpg)](https://live.staticflickr.com/65535/54369728375_4d5b6c0e8e_o.jpg)  
+[![Chew mono](https://live.staticflickr.com/65535/54517001878_1985e94dbb_b.jpg)](https://live.staticflickr.com/65535/54517001878_02305ed23b_o.jpg)  
 The same, monobloc though !
-
 
 ### Requirements
 
@@ -82,7 +82,8 @@ The same, monobloc though !
 
 Optional:
 - 18x [Mill Max sockets](https://splitkb.com/collections/keyboard-parts/products/mill-max-low-profile-sockets)
-- 34x [kailh hotswap sockets](https://cdn.shopify.com/s/files/1/0588/1108/9090/files/5118-Choc-Socket.pdf?v=1686715063)
+- 34x [Kailh hotswap sockets](https://cdn.shopify.com/s/files/1/0588/1108/9090/files/5118-Choc-Socket.pdf?v=1686715063)  
+- 1x [Piezo buzzer](https://keeb.supply/products/piezo-buzzer)
 - 1x Back PCB + screws and bolts
 
 ### Test
@@ -101,7 +102,7 @@ Check the [wiki](https://github.com/flinguenheld/chew/wiki).
 
 &nbsp;
 
-[![Chew mono](https://live.staticflickr.com/65535/54369728340_e533591814_b.jpg)](https://live.staticflickr.com/65535/54369728340_9194f4a2b7_o.jpg)
+[![Chew mono](https://live.staticflickr.com/65535/54517001868_037660cf99_b.jpg)](https://live.staticflickr.com/65535/54517001868_2b600309fd_o.jpg)  
 
 <div align="center" style="margin: 30px;">
   <img src="./images/sausages.png">
