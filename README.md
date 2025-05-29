@@ -40,7 +40,7 @@ You can print these templates to test if it fits your hands:
 
 Chew is now running with it's [custom firmware](https://github.com/flinguenheld/rusty_chew) written in rust ! 🦀  
 
-It also runs on [QMK](https://docs.qmk.fm/#/),  you can see it's [folder](https://github.com/qmk/qmk_firmware/tree/master/keyboards/chew) and my [keymap](https://github.com/flinguenheld/qmk_chew).
+It also runs on [QMK](https://docs.qmk.fm/#/),  you can see it's [folder](https://github.com/qmk/qmk_firmware/tree/master/keyboards/chew/split) and my [keymap](https://github.com/flinguenheld/qmk_chew).
 
 ### How to build
 
