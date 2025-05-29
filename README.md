@@ -94,7 +94,7 @@ You can print this [template](./images/shape_mono.pdf) to test if it fits your h
 
 The [rusty firmware](https://github.com/flinguenheld/rusty_chew) also works with this version. 🦀  
 
-Or its [QMK folder](https://github.com/qmk/qmk_firmware/tree/master/keyboards/chew_mono) with my [keymap](https://github.com/flinguenheld/qmk_chew).  
+Or its [QMK folder](https://github.com/qmk/qmk_firmware/tree/master/keyboards/chew/mono) with my [keymap](https://github.com/flinguenheld/qmk_chew).  
 
 ### How to build
 
